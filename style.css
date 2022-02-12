@@ -9,6 +9,7 @@ body{
 }
 #song-name{
     font-size:25px;
+    background-color:#8c4dc7;
     background-color:darkseagreen;
 }
     canvas
@@ -23,6 +24,6 @@ body{
 }
 @keyframes example {
 
-  from {box-shadow: 1px 1px 38px rgb(21, 0, 255);}
-  to {box-shadow: 1px 1px 38px rgb(255, 0, 238);}
+  from {box-shadow: 1px 1px 38px rgb(246, 141, 255);}
+  to {box-shadow: 1px 1px 38px rgb(94, 71, 184);}
 }
