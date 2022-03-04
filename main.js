@@ -37,15 +37,7 @@ function draw(){
         
         }
     }
-    if (scorerightWrist > 0.2){
-        circle(rightWristX, rightWristY, 20);
-        song2.stop();
-        if(song1Status == false ){
-            song1.play();
-            document.getElementById("song").innerHTML = "Playing Harry Potter song"
-        
-        }
-    }
+   
 }
 
 function preload(){
@@ -70,9 +62,5 @@ function gotPoses(results) {
         leftWristY = results[0].pose.leftWrist.y;
 
         scoreleftWrist = results[0].pose.keypoints[9].score;
-        scorerightWrist = results[0].pose.keypoints[10].score;
-
-        rightWristX = results[0].pose.rightWrist.x;
-        rightWristY = results[0].pose.rightWrist.y;
     }
 }
