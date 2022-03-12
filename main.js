@@ -32,7 +32,7 @@ function draw() {
         song1.stop();
         if(song2_status==false) {
             song2.play();
-            document.getElementById("song_name").innerHTML = "Song: Star Spangled Banner";
+            document.getElementById("song-name").innerHTML = "Song: Star Spangled Banner";
             console.log("Star Spangled Banner song is being played now!")
         }
     }
@@ -42,7 +42,7 @@ function draw() {
         song2.stop();
         if(song1_status==false) {
             song1.play();
-            document.getElementById("song_name").innerHTML = "Song: Jana Gana Mana";
+            document.getElementById("song-name").innerHTML = "Song: Jana Gana Mana";
             console.log("Jana Gana Mana is being played now!");
         }
     }
